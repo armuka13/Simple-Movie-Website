@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jumanji</title>
+	<style>
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+   
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+}
+.banner
+{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 0 100px;
+	background: url(imazhi.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.banner .content 
+{
+	max-width: 550px;
+}
+
+.banner .content h2
+{
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 2.5em;
+	letter-spacing: 0.1em;
+	color: #fff;
+}
+
+.banner .content h2 span
+{
+	font-weight: 800;
+}
+
+.banner .content p
+{
+	font-size: 1.2em;
+	font-weight: 300;
+	letter-spacing: 0.02em;
+	line-height: 1em;
+	color: #fff;
+	margin: 15px 0 35px;
+}
+
+.sci 
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50px);
+	right: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.sci li 
+{
+	list-style: none;
+}
+
+.sci li a
+{
+	text-decoration: none;
+}
+
+.sci li a img
+{
+	filter: invert(1);
+	transform: scale(0.6);
+}
+
+.slide {
+	position: absolute;
+	bottom: 10px;
+        top: 30px;
+        right:50px;
+	width: 250px;
+	height: 150px;
+	background: url(logo1.jpg);
+	background-size: cover;
+	cursor: pointer;
+	animation: animate 25s linear infinite;
+}
+@keyframes animate 
+{
+	0%
+	{
+		background-position: top;
+	}
+	45%, 55%
+	{
+		background-position: bottom;
+	}
+}
+
+	</style>
+</head>
+<body>
+
+		<div class="banner">
+		<div class="content">
+<h1 style="color: #fff;">JUMANJI (2017)</h1>
+			<p>Kur katër studentë luajnë me një video-lojë magjike , ata thithen tek xhungla e Jumanji-t, ku janë bllokuar si avatarët e lojës. Për t'u kthyer në botën reale, ata duhet të përfundojnë lojën.</p>
+			   <iframe width="560" height="315" src="https://www.youtube.com/embed/C0NVo07t9UI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="slide"></div>
+			<ul class="sci">
+				<li><a href="#"><img src="facebook.png"></a></li>
+				<li><a href="#"><img src="instagram.png"></a></li>
+			</ul>
+		</div>
+		
+</body>
+</html>

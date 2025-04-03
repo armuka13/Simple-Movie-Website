@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<head>
+    <title>Godfather I</title>
+  <link rel="stylesheet"  href="style.css">
+	 <style>
+  @import url('http://fonts.googlepis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap' )
+  {
+	  margin: 0;
+	  padding: 0;
+	  box-sizing: border-box; 
+	  font-family: sains-serif; 
+		 }
+		 header{
+			 position: absolute;
+			 top: 0;
+			 left: 0;
+			 width: 100%;
+			 display: flex;
+			 justify-content: space-between;
+			 align-items: center;
+			 padding: 40px 100px;
+			 z-index: 1000;	 
+		 }
+		 header .logo{ 
+		 max-width: 120px;
+		 }
+		 header .toggle{ 
+		     max-width: 60px;
+		     crusor: pointer;
+		 }
+		 header .logo img,
+		 header .toggle img
+		 {
+			 max-width: 100%
+		 }
+		 .banner{
+			 position:relative;
+			 width: 100%;
+			 min-height: 100vh;
+			 padding: 0 100px;
+			 background: url("https://cdn.wallpapersafari.com/59/8/6vEG0j.jpg");
+			 background-position: center;
+			 display: flex;
+			 justify-content: flex-start;
+			 align-items: center;
+		 }
+		 .banner .content{
+			 max-width: 550px;
+		 }	
+		 .banner .content h2{
+			 text-transform: uppercase;
+			 font-weight: 400;
+			 font-size: 2.5em;
+			 letter-spacing: 0.1em;
+			 color: #FFFFFF;	
+		 }	
+		  .banner .content p{
+			  font-size: 1.2em;
+			  font-weight: 300;
+			  letter-spacing: 0.2em;
+			  line-height: 1.5em;
+			  color: #FFFFFF;
+			  margin: 15px 0 35px;
+			  
+		 }
+		 .play{
+			 position: relative;
+			 display: inline-flex;
+			 justify-content: flex-start;
+			 align-items: center;
+			 color: #FFF;
+			 text-transform: uppercase;
+			 font-weight: 500;
+			 text-decoration: none;
+			 letter-spacing: 2px;
+			 font-size: 1.2em;
+		 }
+		 .play img
+		 {
+			 margin-right: 10px;
+			 max-width: 50px;
+		 }
+		 .sci{
+			 position: absolute;
+			 top: 50%;
+			 transform: translateY(-50%);
+			 right: 20px;
+			 justify-content: center;
+			 align-items: center;
+			 flex-direction: column;
+			 display: flex;
+		 }
+		 .sci li{
+			 list-style: none;
+			
+		 }
+		  .sci li a{
+			 text-direction: none;
+	
+		 }
+		 .sci li a img{
+			 filter: invert(1);
+			 transform: scale(0.6); 
+		 }
+		 .slide{
+			 position: absolute;
+			 bottom: 50px;
+			 left: calc(50% -250px / 2);
+			 width: 250px;
+			 height: 150px;
+			 background: url(https://media2.giphy.com/media/RMGbTGi77Zg980i3ri/200.gif);
+			 crusor: pointer;
+			 animation: animate 25s linear infinite;
+		 }
+		 @keyframes{
+			 0%,100%{
+				 background-position: top;
+			 }
+			  45%,55%{
+				 background-position: bottom;
+			 }
+		 }
+  </style>
+</head>
+<body>
+ <header>
+     <a href="#" class="logo"><img src="logo.png" alt=""></a>
+     <div class="toggle"><img src="toggle.png" alt=""></div>
+      </header>
+ <div class="banner">
+ <div class="content">
+    <h2>Godfather</h2>
+    <p>Michael, the young and idealistic son of Vito Corleone, the head of the most powerful Mafia clan in New York, returns home as a war hero and is determined to live his own life. But tragic circumstances make him face the legacy of his family.</p>
+    
+	<br>
+	<br>
+    <div class="slide"></div>
+	<form width="560" height="315" src="https://www.youtube.com/embed/sY1S34973zA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></form>  
+	   
+</div>
+</div>
+
+</body>
+</html>

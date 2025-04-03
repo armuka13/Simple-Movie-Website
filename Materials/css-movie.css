@@ -1,0 +1,149 @@
+body {   
+  background-color: rgb(17, 17, 17) !important;
+  background-image: linear-gradient(to top, rgb(17, 17, 17) 0%, rgba(63, 66, 66, 0.7) 100%), url(background-movie.jpg) !important;
+  background-size: 1400px 700px !important;
+  background-repeat: no-repeat !important;
+  margin-right: 13%;
+  margin-left: 13%;
+  margin-top: 0px;
+  font-family: sans-serif;
+}
+
+.ul1 {
+list-style-type: none;
+margin-left: 0;
+padding: 0;
+overflow: hidden;
+position: absolute;
+top: 1%;
+}
+
+#ul1 {
+position: absolute;
+margin: auto;
+top: 2.6%;
+left: 33%;
+right: 0;
+bottom: 0;
+}
+
+.ul2 {
+list-style-type: none;
+margin-left: 75px;
+padding: 20px;
+overflow: hidden;
+position: absolute;
+top: 0px;
+}
+
+.logo {
+margin-top: 5%;
+width: 150px;
+height: 28.5px;
+}
+
+.logo:hover {
+  transform: scale(1.1) !important;
+  transition-duration: 0.5s;
+  border-radius: 25%;
+  box-shadow: 0px 0px 15px 0px cyan;
+}
+
+
+.li1 {
+float: left;
+font-weight: bold;
+font-size: 25px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+
+
+.li1 a {
+display: block;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+color: white;
+}
+
+
+
+
+.li1 a:hover {
+background-color: #111111;
+color: red;
+transform: scale(1.1) !important;
+transition-duration: 0.5s;
+border-radius: 25%;
+box-shadow: 0px 0px 15px 0px black;
+}
+
+
+#input1 {
+background-color: whitesmoke;
+position: absolute;
+margin: auto;
+top: 4.5%;
+left: 72%;
+opacity: 70%;
+border: 1px solid black;
+position: absolute;
+border-radius: 50%;
+height: 60px;
+width: 60px;
+}
+
+#input1:focus {
+opacity: 100%;
+transform: scale(1.5);
+border: none;
+transition-duration: 0.4s;
+position: absolute;
+box-shadow: 0px 0px 15px 0px rgb(0, 255, 0) ;
+border-radius: 0%;
+height: 17px;
+width: 120px;
+top: 8%;
+}
+
+.table1 {
+margin-top: 12%;
+padding: 5%;
+color: white;
+text-align: center;
+}
+
+.table1 img {
+width: 200px;
+height: 315px;
+}
+
+.table1 th, td {
+padding-right: 20px;
+}
+
+.table1 a{
+opacity: 65%;
+
+}
+
+.table1 a:hover{
+opacity: 100%;
+}
+
+.table1 img:hover{
+transform: scale(1.05);
+transition-duration: 0.4s;
+}
+
+.lloji a {
+text-decoration: none;
+color: rgb(255, 6, 255)
+}
+
+.lloji a:hover{
+color: red;
+}

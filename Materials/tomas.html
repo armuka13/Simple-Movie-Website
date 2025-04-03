@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aquaman</title>
+<style>
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+   
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+}
+.banner
+{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 0 100px;
+	background: url(background.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.banner .content 
+{
+	max-width: 550px;
+}
+
+.banner .content h2
+{
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 2.5em;
+	letter-spacing: 0.1em;
+	color: #fff;
+}
+
+.banner .content h2 span
+{
+	font-weight: 800;
+}
+
+.banner .content p
+{
+	font-size: 1.2em;
+	font-weight: 300;
+	letter-spacing: 0.02em;
+	line-height: 1em;
+	color: #fff;
+	margin: 15px 0 35px;
+}
+
+.sci 
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50px);
+	right: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.sci li 
+{
+	list-style: none;
+}
+
+.sci li a
+{
+	text-decoration: none;
+}
+
+.sci li a img
+{
+	filter: invert(1);
+	transform: scale(0.6);
+}
+
+.slide {
+	position: absolute;
+	bottom: 10px;
+        top: 30px;
+        right:50px;
+	width: 250px;
+	height: 150px;
+	background: url(aquaman.jpg);
+	background-size: cover;
+	cursor: pointer;
+	animation: animate 25s linear infinite;
+}
+
+@keyframes animate 
+{
+	0%
+	{
+		background-position: top;
+	}
+	45%, 55%
+	{
+		background-position: bottom;
+	}
+}
+
+element.style {
+    display: block;
+}
+</style>
+</head>
+<body>
+  <header>
+        </ul>
+    </header>
+	<div class="banner">
+		<div class="content">
+			<h1 style="color: #fff;">AQUAMAN (2018)</h1>
+			<p>Arthur Curry (Aquaman) mëson se ai është trashëgimtari i mbretërisë nënujore të Atlantis dhe i duhet të bëjë një hap përpara për të udhëhequr njerëzit e tij dhe për t'u bërë një hero për botën.</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/WDkg3h8PCVU " title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="slide"></div>
+			<ul class="sci">
+				<li><a href="#"><img src="facebook.png"></a></li>
+				<li><a href="#"><img src="instagram.png"></a></li>
+			</ul>
+	
+</body>
+</html>
